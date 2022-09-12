@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	height: 100vh;
+	width: 100%;
+	background: #1B1F37;
+	font-family: 'Source Sans Pro', sans-serif;
+	position: relative;
+}
+
+.navbar{
+	height: 80px;
+	width: 100%;
+	background: #2A2F45;
+}
+
+.navlogo {
+	width: 68px;
+	height: auto;
+	padding: 6px 285px;
+	position: relative;
+}
+
+.navlogo a img{
+	width: 64px;
+	height: auto;
+	position: absolute;
+	-webkit-transition: opacity 0.05s ease-in-out;
+   	-moz-transition: opacity 0.05s ease-in-out;
+  	-ms-transition: opacity 0.05s ease-in-out;
+  	-o-transition: opacity 0.05s ease-in-out;
+  	transition: opacity 0.05s ease-in-out;
+}
+
+.navlogo a img.navlogo-primary:hover{
+	opacity:0;
+  	cursor: pointer;
+}
+
+
+.navbar	ul{
+	float: right;
+	margin-right: 348px;
+}
+
+.navbar ul li{
+	list-style: none;
+	margin: 0px 16px;
+	display: inline-block;
+	line-height: 54px;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #F7FBFD;
+	font-size: 22px;
+}
+
+.navbar ul li a:hover{
+	/*color: #3B97D5;*/
+	color: #424e98;
+}
+
+.info{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.info-left{
+	margin-left: 18%;
+	margin-top: 7%;
+	width: 35%;
+	height: auto;
+	display: inline-block;
+}
+
+.info-left h3{
+	font-size: 35px;
+	color: #F7FBFD;
+	margin-bottom: 15px;
+}
+.info-left h2{
+	font-size: 35px;
+	color: #F7FBFD;
+	margin-bottom: 15px;
+}
+
+.info-left p{
+	color: #F7FBFD;
+	line-height: 20px;
+}
+
+.info-left-top a{
+	background: #4E566A;
+	padding: 6px 13px;
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	margin: 20px 0px;
+	border-radius: 8px;
+}
+
+.info-left a:hover{
+	color: #3B97D5;
+}
+
+.info-right{
+	width: 65%;
+	height: auto;
+}
+
+.info-right-container{
+	background: #3C4257;
+	margin-top: 55px;
+	border-radius: 15px;
+  	padding: 0px; 
+  	width: 458px;
+  	height: 562px; 
+  	display: block;
+}
+
+.info-right-heading{
+	background: #4E566A;
+	width: 100%;
+	justify-content: space-between;
+	display: flex;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	height: 38px;
+}
+
+.info-right-heading p{
+	font-size: 18px;
+	margin-top: 5px;
+	margin-left: 16px;
+	padding: 4px;
+	color: #A2ACB8;
+}
+
+.info-right-content{
+	display: block;
+	padding: 20px;
+	margin-left: 3px;
+}
+
+.info-right-content h4{
+	color: #C1C8D3;
+	margin-bottom: 18px;
+}
+
+.footer{
+	color: #F7FBFD;
+	margin-top: 300px;
+	line-height: 20px;
+}
+
+.footer a{
+	text-decoration: none;
+  	cursor: pointer;
+	color: #3B97D5;
+}
+
+.footer a:hover{
+	cursor: pointer;
+	color: #226a9b;
+}
