@@ -1,6 +1,6 @@
 
 ## Raven Theme
-[Theme's Demo](https://github.com/chauhantirth)
+[Theme's Demo](https://chauhantirth.github.io/raven/)
 
 This is the raw HTML and styles that are used for the Raven theme on [GitHub Pages](http://pages.github.com/).
 
